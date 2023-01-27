@@ -60,6 +60,13 @@ div{
     margin-right: 50px;
     border-width: 2px 5px 0px 0px;
 }
+.blue h2{
+    color: #c4c4c4;
+}
+
+.blue p{
+    color: #c4c4c4;
+}
 
 .yellow{
     background-color: #ffff00;
@@ -69,8 +76,12 @@ div{
     color: #c4c4c4;
 }
 
+.yellow p{
+    color: #707070;
+}
+
 .yellow h2{
-    color: #000000;
+    color: #707070;
 }
 
 .green{
@@ -91,7 +102,7 @@ footer{
     border: 5px solid #ffffff;
 }
 
-footer, p{
+footer > p{
     font-size: 20px;
     text-align: right;
     padding-top: 15px;
