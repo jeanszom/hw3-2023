@@ -10,12 +10,13 @@ h1 {
     text-align: center;
     font-size: 42px;
     padding: 15px;
-    color: #c4c4c4;
+    color: #ffffff;
 }
 h2 {
     color: #c4c4c4;
     font-size: 30px;
 }
+
 p{
     color: #c4c4c4;
     font-size: 24px;
@@ -36,10 +37,12 @@ div{
 }
 
 .introduction{
+    text-align: left;
     border-radius: 15px;
     margin-top: 15px;
     line-height: 2;
 }
+
 .red{
     background-color: #ff0000;
     text-align: right;
@@ -49,6 +52,10 @@ div{
     border-right: 5px;
     
 }
+.red h2{
+    color: #000000;
+}
+
 .blue{
     background-color: #0000ff;
     text-align: left;
@@ -56,6 +63,7 @@ div{
     border-left: 5px;
     border-bottom: 2px;
 }
+
 .yellow{
     background-color: #ffff00;
     text-align: right;
@@ -64,9 +72,11 @@ div{
     border-right: 5px;
     color: #707070;
 }
-.yello h2{
+
+.yellow h2{
     color: #000000;
 }
+
 .green{
     background-color:#008500;
     text-align: left;
@@ -75,6 +85,11 @@ div{
     border-bottom: 2px;
     color: #000000;
 }
+
+.green h2{
+    color: #000000;
+}
+
 footer{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
