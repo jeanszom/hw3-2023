@@ -13,7 +13,7 @@ h1 {
     color: #ffffff;
 }
 h2 {
-    color: #c4c4c4;
+    color: #0d0d0d;
     font-size: 30px;
 }
 
@@ -37,7 +37,6 @@ div{
 }
 
 .introduction{
-    text-align: left;
     border-radius: 15px;
     margin-top: 15px;
     line-height: 2;
@@ -48,8 +47,7 @@ div{
     text-align: right;
     margin-left: 50px;
     border-color: #ffffff;
-    border-top: 2px;
-    border-right: 5px;
+    border-width: 0px 0px 2px 5px;
     
 }
 .red h2{
@@ -60,17 +58,15 @@ div{
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
-    border-left: 5px;
-    border-bottom: 2px;
+    border-width: 2px 5px 0px 0px;
 }
 
 .yellow{
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
-    border-top: 2px;
-    border-right: 5px;
-    color: #707070;
+    border-width: 0px 0px 2px 5px;
+    color: #c4c4c4;
 }
 
 .yellow h2{
@@ -81,14 +77,13 @@ div{
     background-color:#008500;
     text-align: left;
     margin-right: 50px;
-    border-left: 5px;
-    border-bottom: 2px;
+    border-width: 2px 5px 0px 0px;
     color: #000000;
 }
 
-.green h2{
+/* .green h2{
     color: #000000;
-}
+} */
 
 footer{
     background: rgb(2,0,36);
@@ -96,7 +91,7 @@ footer{
     border: 5px solid #ffffff;
 }
 
-p, footer{
+footer, p{
     font-size: 20px;
     text-align: right;
     padding-top: 15px;
